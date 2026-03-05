@@ -1,0 +1,60 @@
+
+
+Pregunta 2:
+
+¿Cuál es la principal diferencia entre clonar un objeto con el operador de propagación (...) y usar structuredClone()?
+
+El operador de propagación efectivamente crea una copia superficial, lo que significa que solo copia las propiedades del primer nivel de un objeto, dejando los objetos anidados como referencias. Por otro lado, structuredClone() realiza una copia profunda, creando nuevas instancias de todos los objetos, incluidos los anidados, lo que permite trabajar con una copia independiente del objeto original.
+
+Pregunta 3:
+
+Verdadero o Falso: Las interfaces de TypeScript se compilan en objetos de JavaScript en el código final, añadiendo peso al archivo.
+
+Tu respuesta "Falso" es correcta porque las interfaces de TypeScript son herramientas de desarrollo que se utilizan únicamente para la verificación de tipos y no se convierten en código JavaScript durante la transpilación. Esto significa que no añaden peso al archivo final. ¡Buen trabajo!
+
+
+Pregunta 4:
+
+En una función de flecha, ¿cuál es la sintaxis correcta para retornar implícitamente un objeto?
+
+Has seleccionado correctamente "Envolviendo el objeto con paréntesis" porque, en una función de flecha, los paréntesis son necesarios para distinguir el objeto que quieres retornar del cuerpo de la función, evitando confusiones con las llaves del bloque de código. ¡Excelente trabajo!
+
+Pregunta 5:
+Dada la desestructuración de arreglo const [, , , heroe] = heroes;, ¿qué elemento del arreglo heroes se está asignando a la variable heroe?
+
+Has seleccionado correctamente "El cuarto elemento (índice 3)" porque, en la desestructuración, cada coma representa un elemento que se omite; las tres comas al inicio efectivamente saltan los elementos en los índices 0, 1 y 2, asignando así el elemento en el índice 3 a la variable heroe. ¡Sigue así, estás haciendo un gran trabajo en entender estos conceptos!
+
+
+Pregunta 6:
+En la tarea de useState, en la lección “Tarea – Desestructuración”, ¿por qué fue importante usar la aserción as const en el arreglo que retorna la función?
+
+Has seleccionado correctamente que "as const" permite a TypeScript inferir el arreglo como una tupla, lo que es crucial para la seguridad de tipos. Esto significa que TypeScript reconocerá el primer elemento como un string y el segundo como una función, asegurando que estos tipos se mantengan en cada posición, en lugar de tratar el arreglo como un conjunto de tipos mezclados. ¡Buen trabajo!
+
+Pregunta 7:
+Al usar el Fetch API para obtener datos JSON, ¿por qué es necesario un segundo paso como .then(response => response.json())?
+
+Has seleccionado correctamente que la respuesta de fetch no incluye el cuerpo de los datos, sino metadatos, porque el método .json() es esencial para convertir el stream de texto del cuerpo en un objeto JSON. Esto es fundamental para poder acceder y utilizar los datos de manera efectiva en tu aplicación. ¡Sigue así, estás haciendo un gran progreso!
+
+Pregunta 8:
+En una función async, ¿qué hace la palabra clave await?
+
+Pausa la ejecuciòn de la funciòn asybc hasta bqye una promesa se resuelva y devuelva su valor.
+
+Pregunta 9:
+Dado el siguiente objeto:
+
+const user = { fullName: 'Tony Stark', years: 45 };
+
+¿Cuál es la sintaxis correcta para desestructurar la propiedad fullName y asignarla a una nueva variable llamada heroName en una sola línea?
+
+const { fullName: heroName} = user;
+
+
+Pregunta 10:
+Según la estructura de la respuesta de la API de Giphy vista en la lección “Giphy API - Obtener gifs”
+
+¿Cuál sería la ruta de acceso correcta para obtener la URL de la imagen en su tamaño original?
+
+Puedes usar Postman para ubicarla de esta forma.
+
+data.images.original.url;
