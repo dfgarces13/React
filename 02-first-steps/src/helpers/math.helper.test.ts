@@ -100,7 +100,7 @@ describe('multiply' , () => {
 
         // ! 1. Arrange
         const a = 1;
-        const b = 0;
+        const b = 1;
         
         // ! 2. Act
         const result = multiply(a,b);
@@ -112,7 +112,9 @@ describe('multiply' , () => {
         // }
 
         // ! 3. Assert
-        expect(result).toBe(a * b != 0);
+        // expect(result).toBe(a * b != 0);
+        expect(result).toBe(a * b);
+
 
     });
 
