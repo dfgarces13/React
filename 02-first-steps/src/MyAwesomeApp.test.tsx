@@ -27,8 +27,18 @@ describe('MyAwesomeApp', () => {
         
         const h1 = screen.getByTestId('first-name');
         console.log(h1?.innerHTML);
-        expect(h1?.innerHTML).toContain('Vicky');
+        expect(h1?.innerHTML).toContain('Soy');
         
     });
+
+    test( 'Should match snatshop', () => {
+        const { container } =  render(<MyAwesomeApp/>);
+        expect(container).toMatchSnapshot();
+    })
+
+    test( 'Should match snatshop', () => {
+        render(<MyAwesomeApp/>);
+        expect(screen.getByTestId('div-app')).toMatchSnapshot();
+    })
 
 });

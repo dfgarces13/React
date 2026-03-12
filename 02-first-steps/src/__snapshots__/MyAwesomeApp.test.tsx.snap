@@ -1,0 +1,55 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`MyAwesomeApp > Should match snatshop 1`] = `
+<div>
+  <div
+    data-testid="div-app"
+  >
+    <h1
+      data-testid="first-name"
+    >
+      Soy el hijo de
+    </h1>
+    <h3>
+      Vicky
+    </h3>
+    <p>
+      Gears of war, Zelda, Mario
+    </p>
+    <h1>
+      Activo
+    </h1>
+    <p
+      style="background-color: red; border-radius: 20px; padding: 10px; margin-top: 30px;"
+    >
+      {"zipCode":"ABC-123","phone":"123456"}
+    </p>
+  </div>
+</div>
+`;
+
+exports[`MyAwesomeApp > Should match snatshop 2`] = `
+<div
+  data-testid="div-app"
+>
+  <h1
+    data-testid="first-name"
+  >
+    Soy el hijo de
+  </h1>
+  <h3>
+    Vicky
+  </h3>
+  <p>
+    Gears of war, Zelda, Mario
+  </p>
+  <h1>
+    Activo
+  </h1>
+  <p
+    style="background-color: red; border-radius: 20px; padding: 10px; margin-top: 30px;"
+  >
+    {"zipCode":"ABC-123","phone":"123456"}
+  </p>
+</div>
+`;

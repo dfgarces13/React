@@ -23,7 +23,7 @@ export function MyAwesomeApp() {
 
 
     return (
-        <>
+        <div data-testid="div-app">
             <h1 data-testid="first-name">{firstName}</h1>
             <h3>{lastName}</h3>
 
@@ -35,7 +35,7 @@ export function MyAwesomeApp() {
                 style={myStyles}
             >{JSON.stringify(address)}</p>
 
-        </>
+        </div>
 
 
     );

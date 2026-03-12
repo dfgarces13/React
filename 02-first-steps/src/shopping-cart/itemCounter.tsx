@@ -50,7 +50,7 @@ export const ItemCounter = ({ name, cantidad = 1 }: Props) => {
                 }}
                 onClick={handleSuma}
             >+1</button>
-            <span>{count}</span>
+            <span data-testid="span-count">{count}</span>
             <button
                 onClick={handleResta}>-1</button>
         </section>
