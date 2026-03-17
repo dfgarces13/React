@@ -1,0 +1,72 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`FirstStepApp > should match snapshot 1`] = `
+<div>
+  <h1>
+    Carrito de Compras
+  </h1>
+  <section
+    class="_itemRow_a1c071"
+  >
+    <span
+      class="_item-text_a1c071"
+      style="color: black;"
+    >
+      Nintendo
+    </span>
+    <button>
+      +1
+    </button>
+    <span
+      data-testid="span-count"
+    >
+      10
+    </span>
+    <button>
+      -1
+    </button>
+  </section>
+  <section
+    class="_itemRow_a1c071"
+  >
+    <span
+      class="_item-text_a1c071"
+      style="color: black;"
+    >
+      PlayStation
+    </span>
+    <button>
+      +1
+    </button>
+    <span
+      data-testid="span-count"
+    >
+      30
+    </span>
+    <button>
+      -1
+    </button>
+  </section>
+  <section
+    class="_itemRow_a1c071"
+  >
+    <span
+      class="_item-text_a1c071"
+      style="color: black;"
+    >
+      Xbox
+    </span>
+    <button>
+      +1
+    </button>
+    <span
+      data-testid="span-count"
+    >
+      5
+    </span>
+    <button>
+      -1
+    </button>
+  </section>
+</div>
+`;
